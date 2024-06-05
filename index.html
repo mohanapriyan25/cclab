@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHISHECK P O - Portfolio</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        /* Updated CSS for Portfolio Section */
+        .portfolio-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .portfolio-item {
+            display: inline-block;
+            margin-bottom: 40px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .portfolio-content {
+            padding: 20px;
+        }
+
+        .portfolio-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-description {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .portfolio-link:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Stylized About Me Section */
+        .about-section {
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section-heading {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .about-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .about-description {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #ff4081;
+            font-weight: bold;
+        }
+
+        .about-extra {
+            margin-top: 20px;
+            font-style: italic;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABHISHECK P O</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+            <p class="about-description">Hey there! I'm <span class="highlight">Abhisheck P O</span>, a <span class="highlight">second-year student</span> at <span class="highlight">SKCET</span>, fueled by a passion for <span class="highlight">web development</span>. With a creative mindset and an eye for detail, I'm on a journey to master the art of crafting mesmerizing digital experiences.</p>
+            <p class="about-extra">Let's connect and build something amazing together!</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2 class="section-heading">Portfolio</h2>
+        <div class="portfolio-item">
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">E-commerce Website</h3>
+                <p class="portfolio-description">Designed and developed a fully functional e-commerce website using HTML, CSS, and JavaScript. Implemented features such as product listings, shopping cart, and checkout process.</p>
+                <a href="#" class="portfolio-link">View Project</a>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Personal Blog</h3>
+                <p class="portfolio-description">Created a responsive personal blog using WordPress. Customized themes and plugins to achieve desired functionality and design. Regularly updated content to engage audience.</p>
+                <a href="#" class="portfolio-link">View Project</a>
+            </div>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ABHISHECK P O. All rights reserved.</p>
+    </footer>
+</body>
+</html>
